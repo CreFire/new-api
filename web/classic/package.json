@@ -42,7 +42,7 @@
     "use-debounce": "^10.0.4"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "node api.js && vite",
     "build": "vite build",
     "lint": "prettier . --check",
     "lint:fix": "prettier . --write",

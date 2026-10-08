@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "rsbuild dev",
+    "dev": "node api.js && rsbuild dev",
     "build": "rsbuild build",
     "build:check": "tsc -b && rsbuild build",
     "typecheck": "tsc -b",
